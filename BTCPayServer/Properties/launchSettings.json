@@ -3,6 +3,7 @@
     "Bitcoin": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:14142/",
       "environmentVariables": {
         "BTCPAY_NETWORK": "regtest",
         "BTCPAY_LAUNCHSETTINGS": "true",
@@ -30,12 +31,12 @@
         "BTCPAY_RECOMMENDED-PLUGINS": "",
         "BTCPAY_CHEATMODE": "true",
         "BTCPAY_EXPLORERPOSTGRES": "User ID=postgres;Include Error Detail=true;Host=127.0.0.1;Port=39372;Database=nbxplorer"
-      },
-      "applicationUrl": "http://localhost:14142/"
+      }
     },
     "Bitcoin-HTTPS": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:14142/",
       "environmentVariables": {
         "BTCPAY_NETWORK": "regtest",
         "BTCPAY_LAUNCHSETTINGS": "true",
@@ -67,12 +68,12 @@
         "BTCPAY_RECOMMENDED-PLUGINS": "",
         "BTCPAY_CHEATMODE": "true",
         "BTCPAY_EXPLORERPOSTGRES": "User ID=postgres;Include Error Detail=true;Host=127.0.0.1;Port=39372;Database=nbxplorer"
-      },
-      "applicationUrl": "https://localhost:14142/"
+      }
     },
     "Altcoins-HTTPS": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:14142/",
       "environmentVariables": {
         "BTCPAY_NETWORK": "regtest",
         "BTCPAY_LAUNCHSETTINGS": "true",
@@ -106,8 +107,7 @@
         "BTCPAY_RECOMMENDED-PLUGINS": "",
         "BTCPAY_CHEATMODE": "true",
         "BTCPAY_EXPLORERPOSTGRES": "User ID=postgres;Include Error Detail=true;Host=127.0.0.1;Port=39372;Database=nbxplorer"
-      },
-      "applicationUrl": "https://localhost:14142/"
+      }
     }
   }
 }

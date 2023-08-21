@@ -8,6 +8,9 @@
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Bitcoin-HTTPS' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Bitcoin' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Altcoins-HTTPS' " />
    <ItemGroup>
      <AssemblyAttribute Condition="'$(GitCommit)' != ''" Include="BTCPayServer.GitCommitAttribute">
        <_Parameter1>$(GitCommit)</_Parameter1>

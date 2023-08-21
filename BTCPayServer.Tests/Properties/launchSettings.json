@@ -1,7 +1,8 @@
 {
   "profiles": {
     "BTCPayServer.Tests": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "environmentVariables": {}
     }
   }
 }
